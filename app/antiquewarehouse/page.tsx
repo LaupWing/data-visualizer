@@ -6,6 +6,7 @@ import { CategoryComparison } from "./_components/category-comparison";
 import { UrlMappingTable } from "./_components/url-mapping-table";
 import { UrlStructureExplainer } from "./_components/url-structure-explainer";
 import { TranslationPreview } from "./_components/translation-preview";
+import { PdfDownloadButton } from "./_components/pdf-download-button";
 import { Separator } from "@/components/ui/separator";
 import type { UrlMappingEntry, CategoryMapping, CleanCategory } from "./types";
 
@@ -30,9 +31,16 @@ export default function AntiqueWarehousePage() {
                 antiquewarehouse.nl — Custom PHP → WordPress
               </p>
             </div>
-            <span className="text-xs px-3 py-1.5 rounded-full bg-amber-100 text-amber-700 font-medium">
-              In Progress
-            </span>
+            <div className="flex items-center gap-3">
+              <PdfDownloadButton
+                urls={urls}
+                categories={categories}
+                cleanCategories={cleanCategories}
+              />
+              <span className="text-xs px-3 py-1.5 rounded-full bg-amber-100 text-amber-700 font-medium">
+                In Progress
+              </span>
+            </div>
           </div>
         </div>
       </header>
