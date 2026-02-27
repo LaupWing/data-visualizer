@@ -1,10 +1,18 @@
 import { Navbar } from "./_components/navbar";
+import { PasswordGate } from "./_components/password-gate";
+import { checkAuth } from "./lib/auth";
 
-export default function AntiqueWarehouseLayout({
+export default async function AntiqueWarehouseLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const isAuthenticated = await checkAuth();
+
+  if (!isAuthenticated) {
+    return <PasswordGate />;
+  }
+
   return (
     <div className="min-h-screen bg-slate-50">
       <header className="bg-white border-b border-slate-200">
