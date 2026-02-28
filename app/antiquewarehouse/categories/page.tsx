@@ -6,8 +6,7 @@ import {
   CardTitle,
   CardContent,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { FolderTree, Package, AlertTriangle } from "lucide-react";
+import { Package } from "lucide-react";
 
 export default function CategoriesPage() {
   const categories = getAllCategories();
@@ -18,8 +17,6 @@ export default function CategoriesPage() {
         <h2 className="text-lg font-semibold text-slate-900">Categories</h2>
         <p className="text-sm text-slate-500 mt-1">
           {categories.length} categories with{" "}
-          {categories.reduce((s, c) => s + c.subcategoryCount, 0)} subcategories
-          and{" "}
           {categories.reduce((s, c) => s + c.productCount, 0)} products
         </p>
       </div>
@@ -37,23 +34,10 @@ export default function CategoriesPage() {
               <CardContent>
                 <div className="flex items-center gap-4 text-xs text-slate-500">
                   <span className="flex items-center gap-1">
-                    <FolderTree className="h-3.5 w-3.5" />
-                    {cat.subcategoryCount} subcategories
-                  </span>
-                  <span className="flex items-center gap-1">
                     <Package className="h-3.5 w-3.5" />
                     {cat.productCount} products
                   </span>
                 </div>
-                {cat.emptySubcategoryCount > 0 && (
-                  <Badge
-                    variant="outline"
-                    className="mt-2 text-amber-600 border-amber-200 bg-amber-50 text-xs"
-                  >
-                    <AlertTriangle className="h-3 w-3 mr-1" />
-                    {cat.emptySubcategoryCount} empty subcategories
-                  </Badge>
-                )}
               </CardContent>
             </Card>
           </Link>

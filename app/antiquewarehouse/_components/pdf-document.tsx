@@ -281,19 +281,9 @@ const s = StyleSheet.create({
 });
 
 // Helpers
-function StatusBadge({ type }: { type: string }) {
-  const badgeStyle =
-    type === "Match"
-      ? s.badgeGreen
-      : type === "Renamed"
-        ? s.badgeAmber
-        : s.badgeRed;
-  return <Text style={[s.badge, badgeStyle]}>{type}</Text>;
-}
-
 function TypeBadge({ type }: { type: string }) {
   const badgeStyle =
-    type === "product" || type === "subcategory"
+    type === "product" || type === "category"
       ? s.badgeGreen
       : type === "pagination"
         ? s.badgeAmber
@@ -336,34 +326,17 @@ export function MigrationReportPDF({
     productUrls.map((u) => u.article_number).filter(Boolean)
   ).size;
   const totalProducts = productUrls.length;
-  const oldCatCount = cleanCategories.length;
-  const newCatCount = categories.length;
-  const oldSubCount = cleanCategories.reduce(
-    (sum, c) => sum + c.subcategories.length,
-    0
-  );
-  const newSubCount = categories.reduce(
-    (sum, c) => sum + c.subcategories.length,
+  const catCount = cleanCategories.length;
+  const totalCleanProducts = cleanCategories.reduce(
+    (sum, c) => sum + c.products.length,
     0
   );
 
-  // Product count per old category
+  // Product count per category
   const productCountMap: Record<string, number> = {};
   for (const cat of cleanCategories) {
-    productCountMap[cat.name.nl] = cat.subcategories.reduce(
-      (sum, sub) => sum + sub.products.length,
-      0
-    );
+    productCountMap[cat.name.nl] = cat.products.length;
   }
-
-  // Dropped categories
-  const mappedOldNames = new Set<string>();
-  for (const m of categories) {
-    for (const old of m.old) mappedOldNames.add(old);
-  }
-  const droppedCats = cleanCategories
-    .filter((c) => !mappedOldNames.has(c.name.nl))
-    .map((c) => c.name.nl);
 
   // URLs grouped by type
   const urlsByType: Record<string, UrlMappingEntry[]> = {};
@@ -374,15 +347,13 @@ export function MigrationReportPDF({
 
   // Sample products for translation
   const sampleProducts: {
-    product: (typeof cleanCategories)[0]["subcategories"][0]["products"][0];
+    product: CleanCategory["products"][0];
     category: string;
   }[] = [];
   outer: for (const cat of cleanCategories) {
-    for (const sub of cat.subcategories) {
-      for (const prod of sub.products) {
-        if (sampleProducts.length >= 6) break outer;
-        sampleProducts.push({ product: prod, category: cat.name.nl });
-      }
+    for (const prod of cat.products) {
+      if (sampleProducts.length >= 6) break outer;
+      sampleProducts.push({ product: prod, category: cat.name.nl });
     }
   }
 
@@ -429,38 +400,23 @@ export function MigrationReportPDF({
           <View style={s.statBox}>
             <Text style={s.statLabel}>Unique Products</Text>
             <Text style={s.statValue}>
-              {uniqueProducts > 0 ? uniqueProducts.toLocaleString() : "—"}
+              {totalCleanProducts > 0 ? totalCleanProducts.toLocaleString() : "—"}
             </Text>
             <Text style={s.statDetail}>
               {totalProducts > 0
-                ? `${totalProducts.toLocaleString()} total incl. duplicates`
+                ? `${totalProducts.toLocaleString()} total in URL mapping`
                 : ""}
             </Text>
           </View>
           <View style={s.statBox}>
             <Text style={s.statLabel}>Categories</Text>
             <Text style={s.statValue}>
-              {oldCatCount > 0 ? `${oldCatCount} → ${newCatCount}` : "—"}
+              {catCount > 0 ? catCount.toString() : "—"}
             </Text>
             <Text style={s.statDetail}>
-              {oldCatCount - newCatCount > 0
-                ? `${oldCatCount - newCatCount} dropped`
-                : ""}
+              flat categories (no subcategories)
             </Text>
           </View>
-          <View style={s.statBox}>
-            <Text style={s.statLabel}>Subcategories</Text>
-            <Text style={s.statValue}>
-              {oldSubCount > 0 ? `${oldSubCount} → ${newSubCount}` : "—"}
-            </Text>
-            <Text style={s.statDetail}>
-              {oldSubCount - newSubCount > 0
-                ? `${oldSubCount - newSubCount} consolidated`
-                : ""}
-            </Text>
-          </View>
-        </View>
-        <View style={s.statsRow}>
           <View style={s.statBox}>
             <Text style={s.statLabel}>URL Redirects</Text>
             <Text style={s.statValue}>
@@ -468,6 +424,8 @@ export function MigrationReportPDF({
             </Text>
             <Text style={s.statDetail}>301 permanent redirects configured</Text>
           </View>
+        </View>
+        <View style={s.statsRow}>
           <View style={s.statBox}>
             <Text style={s.statLabel}>Languages</Text>
             <Text style={s.statValue}>3</Text>
@@ -486,101 +444,49 @@ export function MigrationReportPDF({
       <Page size="A4" style={s.page}>
         <Text style={s.sectionTitle}>Category Restructuring</Text>
         <Text style={s.paragraph}>
-          The category structure has been simplified from {oldCatCount} to{" "}
-          {newCatCount} categories, consolidating related product groups for
-          better navigation and SEO. {droppedCats.length > 0 &&
-            `${droppedCats.length} categories have been dropped and their traffic will be redirected to the main products page (/producten/).`}
+          The category structure has been reorganized into {catCount} flat
+          categories with no subcategories. Products are assigned directly to
+          categories for simpler navigation and cleaner URLs.
         </Text>
 
-        {/* Mapped categories table */}
-        <Text style={s.sectionSubtitle}>Category Mapping</Text>
+        {/* Category table */}
+        <Text style={s.sectionSubtitle}>Category Overview</Text>
         <View style={s.tableHeader}>
-          <Text style={[s.tableHeaderCell, { width: "15%" }]}>Status</Text>
-          <Text style={[s.tableHeaderCell, { width: "30%" }]}>
-            Old Category
+          <Text style={[s.tableHeaderCell, { width: "35%" }]}>
+            Category
           </Text>
-          <Text style={[s.tableHeaderCell, { width: "30%" }]}>
-            New Category
+          <Text style={[s.tableHeaderCell, { width: "45%" }]}>
+            Old Subcategories
           </Text>
           <Text
-            style={[s.tableHeaderCell, { width: "12%", textAlign: "right" }]}
+            style={[s.tableHeaderCell, { width: "20%", textAlign: "right" }]}
           >
             Products
           </Text>
-          <Text
-            style={[s.tableHeaderCell, { width: "13%", textAlign: "right" }]}
-          >
-            Subcats
-          </Text>
         </View>
         {categories.map((m, i) => {
-          const isMatch = m.old.length === 1 && m.old[0] === m.new;
-          const count = m.old.reduce(
-            (sum, name) => sum + (productCountMap[name] || 0),
-            0
-          );
+          const count = productCountMap[m.new] || 0;
           return (
             <View
               key={i}
               style={i % 2 === 0 ? s.tableRow : s.tableRowAlt}
               wrap={false}
             >
-              <View style={[s.tableCell, { width: "15%" }]}>
-                <StatusBadge type={isMatch ? "Match" : "Renamed"} />
-              </View>
-              <Text style={[s.tableCell, { width: "30%" }]}>
-                {m.old.join(", ")}
+              <Text style={[s.tableCellBold, { width: "35%" }]}>{m.new}</Text>
+              <Text style={[s.tableCell, { width: "45%" }]}>
+                {m.old.length <= 3
+                  ? m.old.join(", ")
+                  : `${m.old.slice(0, 3).join(", ")} +${m.old.length - 3} more`}
               </Text>
-              <Text style={[s.tableCellBold, { width: "30%" }]}>{m.new}</Text>
               <Text
-                style={[s.tableCell, { width: "12%", textAlign: "right" }]}
+                style={[s.tableCell, { width: "20%", textAlign: "right" }]}
               >
                 {count}
-              </Text>
-              <Text
-                style={[s.tableCell, { width: "13%", textAlign: "right" }]}
-              >
-                {m.subcategories.length}
               </Text>
             </View>
           );
         })}
 
-        {/* Dropped categories */}
-        {droppedCats.length > 0 && (
-          <>
-            <Text style={s.sectionSubtitle}>Dropped Categories</Text>
-            <Text style={[s.paragraph, { marginBottom: 8 }]}>
-              The following categories have been removed. All incoming traffic to
-              these pages will be redirected to /producten/.
-            </Text>
-            {droppedCats.map((name, i) => (
-              <View
-                key={i}
-                style={i % 2 === 0 ? s.tableRow : s.tableRowAlt}
-                wrap={false}
-              >
-                <View style={[s.tableCell, { width: "15%" }]}>
-                  <StatusBadge type="Dropped" />
-                </View>
-                <Text style={[s.tableCell, { width: "50%" }]}>{name}</Text>
-                <Text
-                  style={[
-                    s.tableCell,
-                    { width: "20%", color: slate400, fontStyle: "italic" },
-                  ]}
-                >
-                  → /producten/
-                </Text>
-                <Text
-                  style={[s.tableCell, { width: "15%", textAlign: "right" }]}
-                >
-                  {productCountMap[name] || 0} products
-                </Text>
-              </View>
-            ))}
-          </>
-        )}
         <Footer />
       </Page>
 
@@ -624,12 +530,11 @@ export function MigrationReportPDF({
               { color: emerald600, borderColor: emerald600 },
             ]}
           >
-            /producten/&#123;categorie&#125;/&#123;subcategorie&#125;/
+            /producten/&#123;categorie&#125;/
           </Text>
         </View>
         <Text style={[s.paragraph, { fontSize: 9, marginLeft: 80 }]}>
-          All categories nested under /producten/ with consistent trailing
-          slashes.
+          Flat category structure under /producten/ — no more subcategory level.
         </Text>
 
         <View style={s.patternRow}>
@@ -667,7 +572,7 @@ export function MigrationReportPDF({
           {(
             [
               ["product", "Products"],
-              ["subcategory", "Subcategories"],
+              ["category", "Categories"],
               ["pagination", "Pagination"],
               ["dropped", "Dropped"],
             ] as const
@@ -712,12 +617,12 @@ export function MigrationReportPDF({
           </>
         )}
 
-        {/* Subcategory URLs */}
-        {urlsByType["subcategory"] &&
-          urlsByType["subcategory"].length > 0 && (
+        {/* Category URLs */}
+        {urlsByType["category"] &&
+          urlsByType["category"].length > 0 && (
             <>
               <Text style={s.sectionSubtitle}>
-                Subcategory URLs ({urlsByType["subcategory"].length})
+                Category URLs ({urlsByType["category"].length})
               </Text>
               <View style={s.tableHeader}>
                 <Text style={[s.urlTableHeaderCell, { width: "50%" }]}>
@@ -727,7 +632,7 @@ export function MigrationReportPDF({
                   New URL
                 </Text>
               </View>
-              {urlsByType["subcategory"].map((u, i) => (
+              {urlsByType["category"].map((u, i) => (
                 <View
                   key={i}
                   style={i % 2 === 0 ? s.tableRow : s.tableRowAlt}

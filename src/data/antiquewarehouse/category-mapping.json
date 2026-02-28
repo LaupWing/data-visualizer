@@ -1,164 +1,114 @@
 [
     {
-        "new": "Aanbiedingen",
-        "old": ["Aanbiedingen"],
-        "subcategories": [
-            { "new": "Opruiming moet weg", "old": ["Opruiming moet weg"] },
-            { "new": "Opruiming tegen inkoopprijs", "old": ["Opruiming tegen inkoopprijs"] }
+        "new": "Boekenkasten",
+        "old": ["Antieke boekenkast", "Antieke bibliotheek", "Antiek archief kast"]
+    },
+    {
+        "new": "Boekenmolens",
+        "old": ["Antieke boekenmolen"]
+    },
+    {
+        "new": "Bureaus",
+        "old": ["Antiek bureau", "Antiek partners bureau", "Antiek secretaire", "Antieke bureau items"]
+    },
+    {
+        "new": "Compactom",
+        "old": ["Antieke kledingkast, Compactom, gentle men's wardrobe"]
+    },
+    {
+        "new": "Decoratieve Objecten",
+        "old": [
+            "Antiek apotheek",
+            "Antiek haardscherm",
+            "Antiek kandelaren",
+            "Antiek plate zilver",
+            "Antiek prenten",
+            "Antiek schaakspel",
+            "Antieke bedden",
+            "Antieke bronzen beelden",
+            "Antieke tuinvaas",
+            "Antieke uniformen",
+            "Champagne, wijnkoeler",
+            "Antieke klok",
+            "Antiek schilderijen",
+            "Diversen",
+            "Aris Knikker (1887-1962)",
+            "H.G. Wolbers",
+            "M. Legrand",
+            "W.G.F. Jansen (Willem George Frederik 1871-1949)",
+            "Antiek messing, brons deurbeslag",
+            "Antiek pendule",
+            "Antiek staande klok",
+            "Antieke pub klok of schoolklok",
+            "Carriage klok",
+            "Campaign furniture, reismeubels",
+            "Antieke bibliotheektrap",
+            "Antieke zuil",
+            "Antiek lambrisering",
+            "Antieke bouwmaterialen",
+            "Decoratieve meubelen",
+            "Antiek kantoor inrichting",
+            "Antieke inrichting",
+            "Antiek diversen"
         ]
     },
     {
-        "new": "Antiek Interieur",
-        "old": ["Antiek Interieur"],
-        "subcategories": [
-            { "new": "Antiek Kantoor inrichting", "old": ["Antiek kantoor inrichting"] },
-            { "new": "Antieke inrichting", "old": ["Antieke inrichting"] }
+        "new": "Globe Wernicke Boekenkasten",
+        "old": ["Antieke eiken Globe Wernicke stapelbare boekenkast", "Antieke mahonie Globe Wernicke stapelbare boekenkast"]
+    },
+    {
+        "new": "Kluizen",
+        "old": ["Antieke kluis"]
+    },
+    {
+        "new": "Ladenkasten",
+        "old": ["Antieke ladenkast", "Antieke dresser", "Antieke kasten", "Antieke hoekkast"]
+    },
+    {
+        "new": "Schrijftafels",
+        "old": ["Antieke schrijftafel"]
+    },
+    {
+        "new": "Spiegels",
+        "old": ["Antieke Franse spiegels, antieke Engelse spiegels"]
+    },
+    {
+        "new": "Stoelen",
+        "old": ["Antieke stoelen", "Antieke fauteuil", "Antieke bureaustoel"]
+    },
+    {
+        "new": "Tafels",
+        "old": [
+            "Antieke eiken, mahonie Engelse tafel",
+            "Antieke Franse tafel",
+            "Antieke pembroke tafel",
+            "Antieke schaaktafel",
+            "Antieke side table",
+            "Antieke tilt-top tafel",
+            "Antieke kleine salontafel"
         ]
     },
     {
-        "new": "Antiek Messing of Brons Beslag",
-        "old": ["Antiek messing of brons beslag"],
-        "subcategories": [
-            { "new": "Antiek messing, brons deur beslag", "old": ["Antiek messing, brons deurbeslag"] }
+        "new": "Verlichting",
+        "old": [
+            "Antieke kroonluchter",
+            "Antieke lamp, schemerlamp",
+            "Messing buiten verlichting, messing scheepslampen",
+            "Messing buiten verlichting, scheepsverlichting",
+            "Industriële fabriekslampen",
+            "Vintage lampen, retro lampen"
         ]
     },
     {
-        "new": "Antiek Varia",
-        "old": ["Antiek Varia"],
-        "subcategories": [
-            { "new": "Antiek apotheek", "old": ["Antiek apotheek"] },
-            { "new": "Antiek haardscherm", "old": ["Antiek haardscherm"] },
-            { "new": "Antiek kandelaren", "old": ["Antiek kandelaren"] },
-            { "new": "Antiek plate zilver", "old": ["Antiek plate zilver"] },
-            { "new": "Antiek prenten", "old": ["Antiek prenten"] },
-            { "new": "Antiek schaakspel", "old": ["Antiek schaakspel"] },
-            { "new": "Antieke bedden", "old": ["Antieke bedden"] },
-            { "new": "Antieke bronzen beelden", "old": ["Antieke bronzen beelden"] },
-            { "new": "Antieke tuinvaas", "old": ["Antieke tuinvaas"] },
-            { "new": "Antieke uniformen", "old": ["Antieke uniformen"] },
-            { "new": "Champagne, wijnkoeler", "old": ["Champagne, wijnkoeler"] }
-        ]
+        "new": "Vitrinekasten",
+        "old": ["Antieke vitrine"]
     },
     {
-        "new": "Antiek Vitrinekast",
-        "old": ["Antiek vitrinekast, winkelkast"],
-        "subcategories": [
-            { "new": "Antieke vitrine", "old": ["Antieke vitrine"] }
-        ]
+        "new": "Vintage",
+        "old": ["Vintage en Design meubelen", "Industriële meubels en diversen"]
     },
     {
-        "new": "Antiek Winkelinrichting",
-        "old": ["Antiek winkelinrichting"],
-        "subcategories": [
-            { "new": "Antiek lambrisering", "old": ["Antiek lambrisering"] },
-            { "new": "Antieke bouw materialen", "old": ["Antieke bouwmaterialen"] },
-            { "new": "Decoratieve meubelen", "old": ["Decoratieve meubelen"] },
-            { "new": "Messing buiten verlichting, scheeps lampen", "old": ["Messing buiten verlichting, messing scheepslampen"] }
-        ]
-    },
-    {
-        "new": "Antieke Bureau Inrichting",
-        "old": ["Antieke bureau inrichting"],
-        "subcategories": [
-            { "new": "Antiek archief kast", "old": ["Antiek archief kast"] },
-            { "new": "Antiek bureau", "old": ["Antiek bureau"] },
-            { "new": "Antiek partners bureau", "old": ["Antiek partners bureau"] },
-            { "new": "Antiek secretaire", "old": ["Antiek secretaire"] },
-            { "new": "Antieke bibliotheek", "old": ["Antieke bibliotheek"] },
-            { "new": "Antieke bibliotheektrap", "old": ["Antieke bibliotheektrap"] },
-            { "new": "Antieke boekenkast", "old": ["Antieke boekenkast"] },
-            { "new": "Antieke boekenmolen", "old": ["Antieke boekenmolen"] },
-            { "new": "Antieke bureau items", "old": ["Antieke bureau items"] },
-            { "new": "Antieke bureaustoel", "old": ["Antieke bureaustoel"] },
-            { "new": "Antieke fauteuil", "old": ["Antieke fauteuil"] },
-            { "new": "Antieke kluis", "old": ["Antieke kluis"] },
-            { "new": "Antieke schrijftafel", "old": ["Antieke schrijftafel"] },
-            { "new": "Campaign furniture, reis meubels", "old": ["Campaign furniture, reismeubels"] }
-        ]
-    },
-    {
-        "new": "Antieke Klokken",
-        "old": ["Antieke Klokken"],
-        "subcategories": [
-            { "new": "Antiek pendule", "old": ["Antiek pendule"] },
-            { "new": "Antiek staande klok", "old": ["Antiek staande klok"] },
-            { "new": "Antieke pub klok of schoolklok", "old": ["Antieke pub klok of schoolklok"] },
-            { "new": "Carriage klok", "old": ["Carriage klok"] }
-        ]
-    },
-    {
-        "new": "Antieke Meubels",
-        "old": ["Antieke meubels"],
-        "subcategories": [
-            { "new": "Antieke dresser", "old": ["Antieke dresser"] },
-            { "new": "Antieke eiken, mahonie Engelse tafel", "old": ["Antieke eiken, mahonie Engelse tafel"] },
-            { "new": "Antieke Franse tafel", "old": ["Antieke Franse tafel"] },
-            { "new": "Antieke hoekkast", "old": ["Antieke hoekkast"] },
-            { "new": "Antieke kasten", "old": ["Antieke kasten"] },
-            { "new": "Antieke kledingkast", "old": ["Antieke kledingkast, Compactom, gentle men's wardrobe"] },
-            { "new": "Antieke kleine, salontafel", "old": ["Antieke kleine salontafel"] },
-            { "new": "Antieke kroonluchter", "old": ["Antieke kroonluchter"] },
-            { "new": "Antieke ladenkast", "old": ["Antieke ladenkast"] },
-            { "new": "Antieke lamp, schemerlamp", "old": ["Antieke lamp, schemerlamp"] },
-            { "new": "Antieke pembroke tafel", "old": ["Antieke pembroke tafel"] },
-            { "new": "Antieke schaaktafel", "old": ["Antieke schaaktafel"] },
-            { "new": "Antieke side table", "old": ["Antieke side table"] },
-            { "new": "Antieke stoelen", "old": ["Antieke stoelen"] },
-            { "new": "Antieke tilt-top tafel", "old": ["Antieke tilt-top tafel"] },
-            { "new": "Antieke zuil", "old": ["Antieke zuil"] }
-        ]
-    },
-    {
-        "new": "Antieke Spiegels",
-        "old": ["Antieke Spiegels"],
-        "subcategories": [
-            { "new": "Antieke Engelse spiegels", "old": ["Antieke Franse spiegels, antieke Engelse spiegels"] },
-            { "new": "Antieke Franse spiegels", "old": ["Antieke Franse spiegels, antieke Engelse spiegels"] }
-        ]
-    },
-    {
-        "new": "Antieke Wetenschappelijke Instrumenten",
-        "old": ["Antieke wetenschappelijke instrumenten"],
-        "subcategories": [
-            { "new": "Antieke anatomische modellen", "old": ["Antieke anatomische modellen"] },
-            { "new": "Antieke barometers", "old": ["Antieke barometers"] },
-            { "new": "Antieke globe", "old": ["Antieke globe"] },
-            { "new": "Antieke nautische instrumenten", "old": ["Antieke nautische instrumenten"] }
-        ]
-    },
-    {
-        "new": "Globe Wernicke Antieke Boekenkast",
-        "old": ["Globe Wernicke antieke boekenkast"],
-        "subcategories": [
-            { "new": "Antieke eiken Globe Wernicke stapelbare boekenkast", "old": ["Antieke eiken Globe Wernicke stapelbare boekenkast"] },
-            { "new": "Antieke mahonie Globe Wernicke stapelbare boekenkast", "old": ["Antieke mahonie Globe Wernicke stapelbare boekenkast"] }
-        ]
-    },
-    {
-        "new": "Industriele & Vintage Produkten",
-        "old": ["Industriële & Vintage producten"],
-        "subcategories": [
-            { "new": "Industriele fabriekslampen", "old": ["Industriële fabriekslampen"] },
-            { "new": "Industriele meubels en diversen", "old": ["Industriële meubels en diversen"] },
-            { "new": "Vintage en Design meubelen", "old": ["Vintage en Design meubelen"] },
-            { "new": "Vintage lampen, retro lampen", "old": ["Vintage lampen, retro lampen"] }
-        ]
-    },
-    {
-        "new": "Messing Buiten Verlichting",
-        "old": ["Messing buiten verlichting"],
-        "subcategories": [
-            { "new": "Messing buiten verlichting, scheeps verlichting", "old": ["Messing buiten verlichting, scheepsverlichting"] }
-        ]
-    },
-    {
-        "new": "Schilderijen",
-        "old": ["Schilderijen"],
-        "subcategories": [
-            { "new": "Aris Knikker (1887-1962)", "old": ["Aris Knikker (1887-1962)"] },
-            { "new": "H.G. Wolbers", "old": ["H.G. Wolbers"] },
-            { "new": "M. Legrand", "old": ["M. Legrand"] },
-            { "new": "W.G.F. Jansen (1871-1949)", "old": ["W.G.F. Jansen (Willem George Frederik 1871-1949)"] }
-        ]
+        "new": "Wetenschappelijk",
+        "old": ["Antieke anatomische modellen", "Antieke barometers", "Antieke globe", "Antieke nautische instrumenten", "Antieke wetenschappelijke instrumenten"]
     }
 ]

@@ -1,18 +1,20 @@
 [
     {
         "old_url": "https://www.antiquewarehouse.nl/antiek-aanbiedingen/opruiming-tegen-inkoopprijs-antiek",
-        "new_url": "https://www.antiquewarehouse.nl/producten/aanbiedingen/opruiming-tegen-inkoopprijs/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "type": "dropped",
+        "status": "category-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/antiek-aanbiedingen/antiek-opruiming",
-        "new_url": "https://www.antiquewarehouse.nl/producten/aanbiedingen/opruiming-moet-weg/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "type": "dropped",
+        "status": "category-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2755",
@@ -856,8 +858,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-mahonie-Globe-Wernicke-stapelbare-boekenkast",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-mahonie-globe-wernicke-stapelbare-boekenkast/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2756",
@@ -1353,8 +1355,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2751",
@@ -2066,8 +2068,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-partners-bureau",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-partners-bureau/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2770",
@@ -2257,8 +2259,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bureaustoel",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bureaustoel/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2423",
@@ -2712,8 +2714,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenkast",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenkast/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenkasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2757",
@@ -3095,8 +3097,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenmolen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenmolen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenmolens/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2773",
@@ -3490,8 +3492,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2765",
@@ -4071,13 +4073,13 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-archief-kast",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-archief-kast/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenkasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-secretaire",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-secretaire/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2489",
@@ -4147,8 +4149,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bibliotheek",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bibliotheek/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenkasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/717",
@@ -4170,8 +4172,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/campaign-furniture-reis-meubels",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/campaign-furniture-reis-meubels/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2655",
@@ -4325,8 +4327,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-fauteuil",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-fauteuil/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1730",
@@ -4456,8 +4458,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bureau-items",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bureau-items/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/573",
@@ -4509,8 +4511,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bibliotheektrap",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bibliotheektrap/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2698",
@@ -4622,8 +4624,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-kluis",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-kluis/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/kluizen/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2705",
@@ -5011,9 +5013,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
-        "type": "dropped",
-        "status": "diversen-redirect-to-all"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2662",
@@ -5605,8 +5606,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2785",
@@ -6366,8 +6367,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-Franse-tafel",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-franse-tafel/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2779",
@@ -6749,8 +6750,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-ladenkast",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-ladenkast/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2753",
@@ -7114,8 +7115,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-dresser",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-dresser/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1926",
@@ -7173,8 +7174,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-pembroke-tafel",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-pembroke-tafel/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1076",
@@ -7292,8 +7293,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-side-table",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-side-table/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2575",
@@ -7417,7 +7418,7 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/554",
-        "new_url": "https://www.antiquewarehouse.nl/product//",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-mahonie-side-table-verkocht/",
         "type": "product",
         "article_number": "554"
     },
@@ -7429,7 +7430,7 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/546",
-        "new_url": "https://www.antiquewarehouse.nl/product//",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-eiken-engelse-side-table-verkocht/",
         "type": "product",
         "article_number": "546"
     },
@@ -7483,8 +7484,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-kledingkast-Compactom-gentle-mens-wardrobe",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-kledingkast/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/compactom/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2530",
@@ -7560,8 +7561,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-tilt-top-tafel",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-tilt-top-tafel/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2768",
@@ -7805,18 +7806,18 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-zuil",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-zuil/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-kleine-salontafel",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-kleine-salontafel/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke--hoekkast",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-hoekkast/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2482",
@@ -7940,8 +7941,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke--kasten",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-kasten/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2357",
@@ -7993,8 +7994,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-kroonluchter",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-kroonluchter/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2638",
@@ -8087,6 +8088,24 @@
         "article_number": "224"
     },
     {
+        "old_url": "https://www.antiquewarehouse.nl/producten/show/802",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-kroonluchter/",
+        "type": "product",
+        "article_number": "802"
+    },
+    {
+        "old_url": "https://www.antiquewarehouse.nl/producten/show/582",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-kristallen-kroonluchter/",
+        "type": "product",
+        "article_number": "582"
+    },
+    {
+        "old_url": "https://www.antiquewarehouse.nl/producten/show/580",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-zakkroonluchter/",
+        "type": "product",
+        "article_number": "580"
+    },
+    {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/222",
         "new_url": "https://www.antiquewarehouse.nl/product/italiaanse-kroonluchter/",
         "type": "product",
@@ -8117,27 +8136,9 @@
         "article_number": "44"
     },
     {
-        "old_url": "https://www.antiquewarehouse.nl/producten/show/802",
-        "new_url": "https://www.antiquewarehouse.nl/product/antieke-kroonluchter/",
-        "type": "product",
-        "article_number": "802"
-    },
-    {
-        "old_url": "https://www.antiquewarehouse.nl/producten/show/582",
-        "new_url": "https://www.antiquewarehouse.nl/product/antieke-kristallen-kroonluchter/",
-        "type": "product",
-        "article_number": "582"
-    },
-    {
-        "old_url": "https://www.antiquewarehouse.nl/producten/show/580",
-        "new_url": "https://www.antiquewarehouse.nl/product/antieke-zakkroonluchter/",
-        "type": "product",
-        "article_number": "580"
-    },
-    {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-lamp-schemerlamp",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-lamp-schemerlamp/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2173",
@@ -8237,8 +8238,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-stoelen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-stoelen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2747",
@@ -8440,8 +8441,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-schaaktafel",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-schaaktafel/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2540",
@@ -8469,19 +8470,18 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
-        "type": "dropped",
-        "status": "diversen-redirect-to-all"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-Spiegels/antieke-Franse-Spiegels-antieke-Engelse-spiegels",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-spiegels/antieke-franse-spiegels/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/spiegels/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-Klokken/antiek-staande-klok",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-klokken/antiek-staande-klok/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1474",
@@ -8503,8 +8503,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-Klokken/antiek-pendule",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-klokken/antiek-pendule/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1006",
@@ -8526,8 +8526,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-Klokken/antieke-pub-klok-of-schoolklok",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-klokken/antieke-pub-klok-of-schoolklok/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2367",
@@ -8573,13 +8573,13 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-Klokken/carriage-klok",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-klokken/carriage-klok/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/antiek-winkelinrichting/messing-buiten-verlichtingmessing-scheeps-lampen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-winkelinrichting/messing-buiten-verlichting-scheeps-lampen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1214",
@@ -8607,8 +8607,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/antiek-winkelinrichting/decoratieve-meubelen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-winkelinrichting/decoratieve-meubelen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1146",
@@ -8654,8 +8654,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/antiek-winkelinrichting/antieke-bouw-materialen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-winkelinrichting/antieke-bouw-materialen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2604",
@@ -8719,8 +8719,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/antiek-winkelinrichting/antiek-lambrisering",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-winkelinrichting/antiek-lambrisering/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2224",
@@ -8748,8 +8748,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2778",
@@ -8906,6 +8906,36 @@
         "new_url": "https://www.antiquewarehouse.nl/product/antieke-zwarte-vitrinekast-met-rode-bodem-en-gebogen-glazen/",
         "type": "product",
         "article_number": "2222"
+    },
+    {
+        "old_url": "https://www.antiquewarehouse.nl/producten/show/2185",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-vitrinekast-met-gebogen-glas-op-zijkant/",
+        "type": "product",
+        "article_number": "2185"
+    },
+    {
+        "old_url": "https://www.antiquewarehouse.nl/producten/show/2183",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-vitrinekast-met-gebogen-glas/",
+        "type": "product",
+        "article_number": "2183"
+    },
+    {
+        "old_url": "https://www.antiquewarehouse.nl/producten/show/2145",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-vitrinekast-met-gebogen-glas-op-zijkant/",
+        "type": "product",
+        "article_number": "2145"
+    },
+    {
+        "old_url": "https://www.antiquewarehouse.nl/producten/show/2144",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-engelse-mahonie-licht-gebogen-vitrinekast/",
+        "type": "product",
+        "article_number": "2144"
+    },
+    {
+        "old_url": "https://www.antiquewarehouse.nl/producten/show/2111",
+        "new_url": "https://www.antiquewarehouse.nl/product/antieke-mahonie-vitrinekast/",
+        "type": "product",
+        "article_number": "2111"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2045",
@@ -9466,49 +9496,19 @@
         "article_number": "893"
     },
     {
-        "old_url": "https://www.antiquewarehouse.nl/producten/show/2185",
-        "new_url": "https://www.antiquewarehouse.nl/product/antieke-vitrinekast-met-gebogen-glas-op-zijkant/",
-        "type": "product",
-        "article_number": "2185"
-    },
-    {
-        "old_url": "https://www.antiquewarehouse.nl/producten/show/2183",
-        "new_url": "https://www.antiquewarehouse.nl/product/antieke-vitrinekast-met-gebogen-glas/",
-        "type": "product",
-        "article_number": "2183"
-    },
-    {
-        "old_url": "https://www.antiquewarehouse.nl/producten/show/2145",
-        "new_url": "https://www.antiquewarehouse.nl/product/antieke-vitrinekast-met-gebogen-glas-op-zijkant/",
-        "type": "product",
-        "article_number": "2145"
-    },
-    {
-        "old_url": "https://www.antiquewarehouse.nl/producten/show/2144",
-        "new_url": "https://www.antiquewarehouse.nl/product/antieke-engelse-mahonie-licht-gebogen-vitrinekast/",
-        "type": "product",
-        "article_number": "2144"
-    },
-    {
-        "old_url": "https://www.antiquewarehouse.nl/producten/show/2111",
-        "new_url": "https://www.antiquewarehouse.nl/product/antieke-mahonie-vitrinekast/",
-        "type": "product",
-        "article_number": "2111"
-    },
-    {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-wetenschappelijke-instrumenten/antieke-globe",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-wetenschappelijke-instrumenten/antieke-globe/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/wetenschappelijk/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-wetenschappelijke-instrumenten/antieke-nautische-instrumenten",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-wetenschappelijke-instrumenten/antieke-nautische-instrumenten/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/wetenschappelijk/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-wetenschappelijke-instrumenten/antieke-wetenschappelijke-instrumenten",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-wetenschappelijke-instrumenten/antieke-anatomische-modellen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/wetenschappelijk/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1442",
@@ -9590,13 +9590,13 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-wetenschappelijke-instrumenten/antieke-anatomische-modellen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-wetenschappelijke-instrumenten/antieke-anatomische-modellen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/wetenschappelijk/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-wetenschappelijke-instrumenten/antieke-barometers",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-wetenschappelijke-instrumenten/antieke-barometers/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/wetenschappelijk/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1852",
@@ -9702,8 +9702,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Industriele-Vintage-produkten/industriele-fabriekslampen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/industriele-vintage-produkten/industriele-fabriekslampen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1680",
@@ -9779,18 +9779,18 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Industriele-Vintage-produkten/Vintage-en-Design-meubelen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/industriele-vintage-produkten/vintage-en-design-meubelen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/vintage/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Industriele-Vintage-produkten/vintage-lampen-retro-lampen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/industriele-vintage-produkten/vintage-lampen-retro-lampen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Industriele-Vintage-produkten/industriele-meubels-en-diversen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/industriele-vintage-produkten/industriele-meubels-en-diversen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/vintage/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2204",
@@ -9830,23 +9830,23 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/messing-buiten-verlichting/messing-buiten-verlichting-scheeps-verlichting",
-        "new_url": "https://www.antiquewarehouse.nl/producten/messing-buiten-verlichting/messing-buiten-verlichting-scheeps-verlichting/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/antiek-messing-of-brons-beslag/antiek-messing-brons-deur-beslag",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-messing-of-brons-beslag/antiek-messing-brons-deur-beslag/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/-champagne,-wijnkoeler",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/champagne-wijnkoeler/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antieke-uniformen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antieke-uniformen/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1603",
@@ -9862,13 +9862,13 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antiek-schaakspel",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-schaakspel/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antiek-haardscherm",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-haardscherm/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2504",
@@ -9884,13 +9884,13 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antieke-tuinvaas",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antieke-tuinvaas/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antiek-apotheek",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-apotheek/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1314",
@@ -9924,8 +9924,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antiek--prenten",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-prenten/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1654",
@@ -9953,13 +9953,13 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antieke-bedden",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antieke-bedden/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antieke-klok",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-klokken/antiek-pendule/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/593",
@@ -10011,8 +10011,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antieke--bronzenbeelden",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antieke-bronzen-beelden/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/114",
@@ -10100,8 +10100,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antiek-schilderijen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/schilderijen/aris-knikker-1887-1962/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/712",
@@ -10129,8 +10129,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antiek-kandelaren",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-kandelaren/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2581",
@@ -10206,8 +10206,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antiek-plate-zilver",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-plate-zilver/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1671",
@@ -10235,8 +10235,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/diversen",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-apotheek/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1664",
@@ -10600,13 +10600,13 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Schilderijen/W.G.F.-Jansen-W.G.F.-Willem-George-Frederik-1871-1949",
-        "new_url": "https://www.antiquewarehouse.nl/producten/schilderijen/w-g-f-jansen-1871-1949/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Schilderijen/Aris-Knikker-1887-1962",
-        "new_url": "https://www.antiquewarehouse.nl/producten/schilderijen/aris-knikker-1887-1962/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/2293",
@@ -10628,18 +10628,18 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Schilderijen/M.-Legrand",
-        "new_url": "https://www.antiquewarehouse.nl/producten/schilderijen/m-legrand/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Schilderijen/H.G.-Wolbers",
-        "new_url": "https://www.antiquewarehouse.nl/producten/schilderijen/h-g-wolbers/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Interieur/antiek-kantoor-inrichting",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-interieur/antiek-kantoor-inrichting/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/1153",
@@ -10685,8 +10685,8 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Interieur/antieke-inrichting",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-interieur/antieke-inrichting/",
-        "type": "subcategory"
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
+        "type": "category"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/producten/show/559",
@@ -10780,919 +10780,919 @@
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/8",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/9",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/10",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/11",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/12",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/13",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/14",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-eiken-Globe-Wernicke-stapelbare-boekenkast/pagina/15",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-eiken-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-mahonie-Globe-Wernicke-stapelbare-boekenkast/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-mahonie-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-mahonie-Globe-Wernicke-stapelbare-boekenkast/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-mahonie-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-mahonie-Globe-Wernicke-stapelbare-boekenkast/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-mahonie-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-mahonie-Globe-Wernicke-stapelbare-boekenkast/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-mahonie-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-mahonie-Globe-Wernicke-stapelbare-boekenkast/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-mahonie-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-mahonie-Globe-Wernicke-stapelbare-boekenkast/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-mahonie-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Globe-Wernicke-antieke-boekenkast/antieke-mahonie-Globe-Wernicke-stapelbare-boekenkast/pagina/8",
-        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-antieke-boekenkast/antieke-mahonie-globe-wernicke-stapelbare-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/globe-wernicke-boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/8",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/9",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/10",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/11",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-bureau/pagina/12",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-partners-bureau/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-partners-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-partners-bureau/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-partners-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-partners-bureau/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-partners-bureau/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bureaustoel/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bureaustoel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bureaustoel/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bureaustoel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bureaustoel/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bureaustoel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bureaustoel/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bureaustoel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bureaustoel/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bureaustoel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bureaustoel/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bureaustoel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bureaustoel/pagina/8",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bureaustoel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenkast/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenkast/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenkast/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenkast/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenkast/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenkast/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenmolen/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenmolen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenmolens/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenmolen/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenmolen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenmolens/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenmolen/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenmolen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenmolens/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenmolen/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenmolen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenmolens/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenmolen/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenmolen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenmolens/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-boekenmolen/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-boekenmolen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/boekenmolens/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel/pagina/8",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel/pagina/9",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-schrijftafel/pagina/10",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-schrijftafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/schrijftafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-secretaire/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antiek-secretaire/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/bureaus/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/campaign-furniture-reis-meubels/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/campaign-furniture-reis-meubels/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/campaign-furniture-reis-meubels/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/campaign-furniture-reis-meubels/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-fauteuil/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-fauteuil/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-fauteuil/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-fauteuil/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-bibliotheektrap/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-bibliotheektrap/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-kluis/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-kluis/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/kluizen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-kluis/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-kluis/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/kluizen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-kluis/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-kluis/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/kluizen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-kluis/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-kluis/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/kluizen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-kluis/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-kluis/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/kluizen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antieke-kluis/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-bureau-inrichting/antieke-kluis/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/kluizen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen/pagina/8",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen/pagina/9",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-bureau-inrichting/antiek-diversen/pagina/10",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/8",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/9",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/10",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/11",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/12",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-eiken-mahonie-Engelse-tafel/pagina/13",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-eiken-mahonie-engelse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-Franse-tafel/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-franse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-Franse-tafel/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-franse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-Franse-tafel/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-franse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-Franse-tafel/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-franse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-Franse-tafel/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-franse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-Franse-tafel/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-franse-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-ladenkast/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-ladenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-ladenkast/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-ladenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-ladenkast/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-ladenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-ladenkast/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-ladenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-ladenkast/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-ladenkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-pembroke-tafel/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-pembroke-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-side-table/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-side-table/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-side-table/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-side-table/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-side-table/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-side-table/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-kledingkast-Compactom-gentle-mens-wardrobe/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-kledingkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/compactom/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-tilt-top-tafel/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-tilt-top-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-tilt-top-tafel/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-tilt-top-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-tilt-top-tafel/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-tilt-top-tafel/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/tafels/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke--hoekkast/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-hoekkast/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/ladenkasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-kroonluchter/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-kroonluchter/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-kroonluchter/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-kroonluchter/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-lamp-schemerlamp/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-lamp-schemerlamp/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-stoelen/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-stoelen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-stoelen/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-stoelen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antieke-stoelen/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-meubels/antieke-stoelen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/stoelen/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen/pagina/8",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen/pagina/9",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-meubels/antiek-diversen/pagina/10",
-        "new_url": "https://www.antiquewarehouse.nl/producten/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/7",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/8",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/9",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/10",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/11",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/12",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-vitrinekast-winkelkast/antieke-vitrine/pagina/13",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-vitrinekast/antieke-vitrine/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/vitrinekasten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-wetenschappelijke-instrumenten/antieke-wetenschappelijke-instrumenten/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-wetenschappelijke-instrumenten/antieke-anatomische-modellen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/wetenschappelijk/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antieke-wetenschappelijke-instrumenten/antieke-barometers/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antieke-wetenschappelijke-instrumenten/antieke-barometers/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/wetenschappelijk/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Industriele-Vintage-produkten/industriele-fabriekslampen/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/industriele-vintage-produkten/industriele-fabriekslampen/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/verlichting/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antieke--bronzenbeelden/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antieke-bronzen-beelden/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/antiek-kandelaren/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-kandelaren/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/diversen/pagina/2",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-apotheek/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/diversen/pagina/3",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-apotheek/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/diversen/pagina/4",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-apotheek/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/diversen/pagina/5",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-apotheek/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     },
     {
         "old_url": "https://www.antiquewarehouse.nl/Antiek-Varia/diversen/pagina/6",
-        "new_url": "https://www.antiquewarehouse.nl/producten/antiek-varia/antiek-apotheek/",
+        "new_url": "https://www.antiquewarehouse.nl/producten/decoratieve-objecten/",
         "type": "pagination",
         "status": "pagination-removed"
     }

@@ -12,8 +12,8 @@ const patterns = [
   {
     label: "Categories",
     old: "/{categorie}/{subcategorie}",
-    newUrl: "/producten/{categorie}/{subcategorie}/",
-    description: "All categories nested under /producten/ with trailing slash",
+    newUrl: "/producten/{categorie}/",
+    description: "Flat categories under /producten/ — no more subcategory level",
     removed: false,
   },
   {

@@ -1,14 +1,24 @@
 import { notFound } from "next/navigation";
-import { getCategoryBySlug, getAllCategories } from "../../lib/data";
+import Link from "next/link";
+import { getCategoryBySlug, getProductsForCategory, getAllCategories } from "../../lib/data";
 import { Breadcrumb } from "../../_components/breadcrumb";
-import { SubcategoriesSection } from "../../_components/empty-subcategories-toggle";
+import { PriceBadge } from "../../_components/price-badge";
+import { DataQualityBadges } from "../../_components/data-quality-badges";
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { FolderTree, Package, AlertTriangle } from "lucide-react";
+import { Package } from "lucide-react";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 
 export function generateStaticParams() {
   return getAllCategories().map((c) => ({ categorySlug: c.slug }));
@@ -22,6 +32,8 @@ export default async function CategoryDetailPage({
   const { categorySlug } = await params;
   const category = getCategoryBySlug(categorySlug);
   if (!category) notFound();
+
+  const products = getProductsForCategory(categorySlug);
 
   return (
     <div className="space-y-6">
@@ -39,22 +51,7 @@ export default async function CategoryDetailPage({
         <p className="text-sm text-slate-400">{category.name.nl}</p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="text-xs text-slate-500 font-medium">
-              Subcategories
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="flex items-center gap-2">
-              <FolderTree className="h-4 w-4 text-slate-400" />
-              <span className="text-2xl font-bold text-slate-900">
-                {category.subcategoryCount}
-              </span>
-            </div>
-          </CardContent>
-        </Card>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-xs text-slate-500 font-medium">
@@ -70,32 +67,53 @@ export default async function CategoryDetailPage({
             </div>
           </CardContent>
         </Card>
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="text-xs text-slate-500 font-medium">
-              Empty Subcategories
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="flex items-center gap-2">
-              <AlertTriangle className="h-4 w-4 text-amber-500" />
-              <span className="text-2xl font-bold text-slate-900">
-                {category.emptySubcategoryCount}
-              </span>
-            </div>
-          </CardContent>
-        </Card>
       </div>
 
       <section>
         <h3 className="text-sm font-semibold text-slate-900 mb-3">
-          Subcategories
+          Products ({products.length})
         </h3>
-        <SubcategoriesSection
-          categorySlug={category.slug}
-          subcategories={category.enrichedSubcategories}
-          emptyCount={category.emptySubcategoryCount}
-        />
+        {products.length === 0 ? (
+          <Card>
+            <CardContent className="py-8 text-center text-sm text-slate-400">
+              No products in this category.
+            </CardContent>
+          </Card>
+        ) : (
+          <div className="rounded-lg border border-slate-200 bg-white overflow-hidden">
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>Article #</TableHead>
+                  <TableHead>Name</TableHead>
+                  <TableHead>Price</TableHead>
+                  <TableHead>Quality</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {products.map((p) => (
+                  <TableRow key={p.articleNumber}>
+                    <TableCell>
+                      <Link
+                        href={`/antiquewarehouse/products/${p.articleNumber}`}
+                        className="text-sm font-mono text-[#C41E3A] hover:underline"
+                      >
+                        {p.articleNumber}
+                      </Link>
+                    </TableCell>
+                    <TableCell className="text-sm">{p.name.en}</TableCell>
+                    <TableCell>
+                      <PriceBadge price={p.price} />
+                    </TableCell>
+                    <TableCell>
+                      <DataQualityBadges product={p} />
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </div>
+        )}
       </section>
     </div>
   );

@@ -5,7 +5,6 @@ import {
 import {
   Package,
   FolderTree,
-  GitBranch,
   ArrowRightLeft,
   Globe,
 } from "lucide-react";
@@ -32,50 +31,29 @@ export function StatsCards({
   ).size;
   const totalProducts = productUrls.length;
 
-  const oldCategoryCount = cleanCategories.length;
-  const newCategoryCount = categories.length;
-  const droppedCategories = oldCategoryCount - newCategoryCount;
-
-  const oldSubcategoryCount = cleanCategories.reduce(
-    (sum, cat) => sum + cat.subcategories.length,
-    0
-  );
-  const newSubcategoryCount = categories.reduce(
-    (sum, cat) => sum + cat.subcategories.length,
+  const totalCleanProducts = cleanCategories.reduce(
+    (sum, cat) => sum + cat.products.length,
     0
   );
 
   const stats = [
     {
       label: "Products",
-      value: uniqueProducts > 0 ? uniqueProducts.toLocaleString() : "—",
+      value: totalCleanProducts > 0 ? totalCleanProducts.toLocaleString() : "—",
       detail:
-        totalProducts > 0
-          ? `${totalProducts.toLocaleString()} total incl. duplicates`
+        uniqueProducts > 0
+          ? `${uniqueProducts.toLocaleString()} unique in URL mapping`
           : "Awaiting data",
       icon: Package,
     },
     {
       label: "Categories",
-      value:
-        oldCategoryCount > 0
-          ? `${oldCategoryCount} → ${newCategoryCount}`
-          : "—",
+      value: categories.length > 0 ? categories.length.toString() : "—",
       detail:
-        droppedCategories > 0 ? `${droppedCategories} dropped` : "Awaiting data",
-      icon: FolderTree,
-    },
-    {
-      label: "Subcategories",
-      value:
-        oldSubcategoryCount > 0
-          ? `${oldSubcategoryCount} → ${newSubcategoryCount}`
-          : "—",
-      detail:
-        oldSubcategoryCount > 0
-          ? `${oldSubcategoryCount - newSubcategoryCount} consolidated`
+        categories.length > 0
+          ? `${cleanCategories.length} flat categories`
           : "Awaiting data",
-      icon: GitBranch,
+      icon: FolderTree,
     },
     {
       label: "URL Redirects",
@@ -92,7 +70,7 @@ export function StatsCards({
   ];
 
   return (
-    <div className="grid grid-cols-5 gap-4">
+    <div className="grid grid-cols-4 gap-4">
       {stats.map((stat) => (
         <Card key={stat.label}>
           <CardContent className="pt-6">

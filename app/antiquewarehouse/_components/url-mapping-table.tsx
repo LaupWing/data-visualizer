@@ -28,7 +28,7 @@ interface UrlMappingTableProps {
 
 const TYPE_STYLES: Record<string, string> = {
   product: "bg-emerald-500 hover:bg-emerald-600",
-  subcategory: "bg-emerald-600 hover:bg-emerald-700",
+  category: "bg-emerald-600 hover:bg-emerald-700",
   pagination: "bg-amber-500 hover:bg-amber-600",
   dropped: "bg-[#C41E3A] hover:bg-[#a3182f]",
 };
@@ -93,8 +93,8 @@ export function UrlMappingTable({ urls }: UrlMappingTableProps) {
               <SelectItem value="product">
                 Product ({typeCounts.product || 0})
               </SelectItem>
-              <SelectItem value="subcategory">
-                Subcategory ({typeCounts.subcategory || 0})
+              <SelectItem value="category">
+                Category ({typeCounts.category || 0})
               </SelectItem>
               <SelectItem value="pagination">
                 Pagination ({typeCounts.pagination || 0})

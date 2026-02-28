@@ -15,19 +15,15 @@ export function TranslationPreview({
   const sampleProducts: {
     product: Product;
     category: string;
-    subcategory: string;
   }[] = [];
 
   outer: for (const cat of cleanCategories) {
-    for (const sub of cat.subcategories) {
-      for (const prod of sub.products) {
-        if (sampleProducts.length >= 8) break outer;
-        sampleProducts.push({
-          product: prod,
-          category: cat.name.nl,
-          subcategory: sub.name.nl,
-        });
-      }
+    for (const prod of cat.products) {
+      if (sampleProducts.length >= 8) break outer;
+      sampleProducts.push({
+        product: prod,
+        category: cat.name.nl,
+      });
     }
   }
 
@@ -87,9 +83,6 @@ export function TranslationPreview({
                     <div className="flex gap-2 mt-2">
                       <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600">
                         {item.category}
-                      </span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600">
-                        {item.subcategory}
                       </span>
                     </div>
                   </div>

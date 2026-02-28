@@ -135,13 +135,6 @@ export default async function ProductDetailPage({
             >
               {product.categoryName.en}
             </Link>
-            <span className="text-slate-300">/</span>
-            <Link
-              href={`/antiquewarehouse/categories/${product.categorySlug}/${product.subcategorySlug}`}
-              className="text-[#C41E3A] hover:underline"
-            >
-              {product.subcategoryName.en}
-            </Link>
           </div>
         </CardContent>
       </Card>
